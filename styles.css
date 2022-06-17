@@ -1,5 +1,5 @@
 body {
-    background-color: #fffbf7;
+    background-color: #f8fcfa;
     font-family: 'Poppins';
   }
   
@@ -38,6 +38,14 @@ body {
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+  }
+
+  .fixes-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f8fcfa;
   }
   
   .logo {
@@ -82,6 +90,36 @@ body {
   }
 
   .main{
-    margin-top:140px;
+    margin-top:400px;
     text-align: center;
+  }
+
+  .flex-container{
+    display: flex;
+    width: 70%;
+    margin: 10% auto;
+    justify-content: space-between;
+  }
+
+  .publish{
+    margin-left: 20px;
+  }
+  .publish h3{
+    color: #025157
+  }
+
+  .publish p{
+    color: #343434
+  }
+
+  .video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .video img{
+    width: 45px;
+    height: 45px;
+    transform: rotate(30deg);
   }
