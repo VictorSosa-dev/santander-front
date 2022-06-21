@@ -1,125 +1,189 @@
 body {
-    background-color: #f8fcfa;
-    font-family: 'Poppins';
-  }
-  
-  h1 {
-    color: #025157;
-    text-align: center;
-  }
-  
-  p {
-    color: #8b8b8bcc;
-    font-family: Verdana;
-    font-size: 20px;
-  }
-  
-  button {
-    color: #fff;
-    background-color: #025157;
-  }
-  
-  .header {
-    margin: 40px 20px 0;
-    font-size: 0;
-  }
-  
-  li {
-    display: inline;
-    margin: 0 25px;
-    font-family: sans-serif;
-    height: 45px;
-    color: #025157;
-  }
-  
-  .header > * {
-    display: inline-block;
-    font-size: 16px;
-    line-height: 45px;
-    height: 100%;
-    vertical-align: middle;
-  }
+  background-color: #f8fcfa;
+  font-family: 'Poppins';
+}
 
-  .fixes-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: #f8fcfa;
-  }
-  
-  .logo {
-    width: 15%;
-  }
-  
-  .logo > img {
-    width: 15%;
-  }
-  
-  .navbar {
-    width: 70%;
-    text-align: left;
-    color: #025157;
-    font-weight: 500;
-  }
-  
-  .actions {
-    width: 15%;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 600;
-  }
+h1 {
+  color: #025157;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 60px;
+}
 
-  .actions  a{
-    color: #67b54b;
-    text-decoration: none;
-  }
+p {
+  color: #8b8b8bcc;
+  font-family: Verdana;
+  font-size: 20px;
+}
 
-  .actions  button{
-    color: #ffff;
-    background: #67b54b;
-    font-weight: 14px;
-    padding-left: 14px;
-    padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 5px;
-    height: 40px;
-    border: transparent;
+button {
+  color: #fff;
+  background-color: #025157;
+}
 
-  }
+.header {
+  margin: 40px 20px 0;
+  font-size: 0;
+}
 
-  .main{
-    margin-top:400px;
-    text-align: center;
-  }
+li {
+  display: inline;
+  margin: 0 25px;
+  font-family: sans-serif;
+  height: 45px;
+  color: #025157;
+}
 
-  .flex-container{
-    display: flex;
-    width: 70%;
-    margin: 10% auto;
-    justify-content: space-between;
-  }
+.header>* {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 45px;
+  height: 100%;
+  vertical-align: middle;
+}
 
-  .publish{
-    margin-left: 20px;
-  }
-  .publish h3{
-    color: #025157
-  }
+.fixes-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f8fcfa;
+}
 
-  .publish p{
-    color: #343434
-  }
+.logo {
+  width: 15%;
+}
 
-  .video{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .video img{
-    width: 45px;
-    height: 45px;
-    transform: rotate(30deg);
-  }
+.logo>img {
+  width: 15%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: left;
+  color: #025157;
+  font-weight: 500;
+}
+
+.actions {
+  width: 15%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.actions a {
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.actions button {
+  color: #ffff;
+  background: #67b54b;
+  font-weight: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  height: 40px;
+  border: transparent;
+
+}
+
+.main {
+  margin-top: 400px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 70%;
+  margin: 10% auto;
+  justify-content: space-between;
+}
+
+.publish {
+  margin-left: 20px;
+}
+
+.publish h3 {
+  color: #025157
+}
+
+.publish p {
+  color: #343434
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video img {
+  width: 45px;
+  height: 45px;
+  transform: rotate(30deg);
+}
+
+.section-2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 850px;
+  background: #a1d683;
+}
+
+.card {
+  height: 40rem;
+  width: 60rem;
+  margin: 1.5rem;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img{
+  height: 200px;
+  border-radius: 10px;
+}
+
+.content p{
+  font-size: xx-large;
+  margin: 10px;
+}
+
+.content button{
+  margin: 10px;
+}
+
+
+.header h3{
+  color: #025157;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+
+.history h1{
+  display: inline;
+}
+
+
+.btn-beefy {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1em;
+  padding: 15px 20px;
+  text-align: center;
+  color: #fff;
+  background: #025157;
+  border-radius: 8px;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  border: transparent;
+}
