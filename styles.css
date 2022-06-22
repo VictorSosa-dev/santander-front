@@ -187,3 +187,8 @@ li {
   transition: all .2s ease-in-out;
   border: transparent;
 }
+
+.features{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
