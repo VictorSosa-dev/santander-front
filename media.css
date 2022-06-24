@@ -1,0 +1,61 @@
+@media (max-width: 575px){
+
+
+   .main{
+    margin-top: 100px;
+   }
+
+   .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 65%;
+  }
+
+  .publish > form > div > button{
+    width: 40%;
+  }
+
+  .promo{
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .publish{
+    margin-top: 10px;
+  }
+
+  .publish > h3{
+    font-size: 25px;
+    line-height: 1.2;
+  }
+
+  .features{
+    grid-template: repeat(4,1fr) / 1fr;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+  }
+
+  .feature-image{
+    display: none;
+  }
+
+  .features .feature-card .feature-content h3{
+    font-size: 1.2rem;
+  }
+
+  
+ 
+
+
+
+
+} 
+
+
