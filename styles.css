@@ -245,3 +245,12 @@ li {
   height: 100%;
 }
 
+.nav-link{
+  color: #025157;
+}
+
+.nav-link:hover{
+  color: #025157;
+  text-decoration: solid
+}
+
