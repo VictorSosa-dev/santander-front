@@ -10,10 +10,8 @@ h1 {
   font-weight: bold;
 }
 
-p {
-  color: #8b8b8bcc;
-  font-size: 1rem;
-  font-weight: 700;
+.growing-img{
+  height: 300px;
 }
 
 button {
@@ -95,7 +93,7 @@ li {
 }
 
 .publish {
-  margin-left: 20px;
+  margin: 5px !important;
 }
 
 .publish h3 {
@@ -119,15 +117,12 @@ li {
   transform: rotate(30deg);
 }
 
-.section-2 {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 850px;
+.growing {
+  height: auto;
   background: #a1d683;
 }
 
-.card {
+.card-matcha {
   height: 40rem;
   width: 60rem;
   margin: 1.5rem;
@@ -137,7 +132,7 @@ li {
   flex-direction: column;
 }
 
-.card img{
+.card-matcha img{
   height: 200px;
   border-radius: 10px;
 }
@@ -252,5 +247,9 @@ li {
 .nav-link:hover{
   color: #025157;
   text-decoration: solid
+}
+
+.subtitle{
+  color: #025157;
 }
 
